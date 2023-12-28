@@ -1,11 +1,10 @@
-import Form from "./Form";
 import "./App.css";
-import UseEffectExample from "./UseEffectExample";
+import UseRefExample from "./hooks/UseRefExample";
 function App() {
   return (
     <div>
-      <h1>UseEffect</h1>
-      <UseEffectExample />
+      <h1>Hooks</h1>
+      <UseRefExample />
     </div>
   );
 }
