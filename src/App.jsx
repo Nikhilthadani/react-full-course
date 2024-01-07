@@ -1,10 +1,13 @@
 import "./App.css";
-import UseRefExample from "./hooks/UseRefExample";
+import Children from "./Children";
 function App() {
   return (
     <div>
-      <h1>Hooks</h1>
-      <UseRefExample />
+      <Children>
+        <div style={{ background: "green" }}>
+          <h1>I AM CHILDREN</h1>
+        </div>
+      </Children>
     </div>
   );
 }
