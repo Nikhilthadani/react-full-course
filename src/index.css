@@ -1,0 +1,16 @@
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+}
+.dark-mode {
+  background: rgb(13, 11, 12);
+  color: whitesmoke;
+  width: 100%;
+}
+
+.light-mode {
+  background: whitesmoke;
+  color: black;
+  width: 100%;
+}

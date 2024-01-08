@@ -1,0 +1,25 @@
+.searchbar-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  background: rgb(15, 33, 48);
+  gap: 10px;
+  border-radius: 10px;
+  margin: auto;
+}
+.search-input {
+  width: 90%;
+  background: none;
+  border: none;
+  outline: none;
+  color: whitesmoke;
+  font-size: 22px;
+}
+.search-icon {
+  padding: 5px;
+  border-radius: 100%;
+  color: black;
+  background: whitesmoke;
+  cursor: pointer;
+}

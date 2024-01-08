@@ -1,0 +1,50 @@
+.user-profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.user-img {
+  border-radius: 100%;
+  width: 300px;
+}
+
+.user-title {
+  font-weight: 600;
+  font-family: cursive;
+  font-size: 35px;
+}
+
+.followers-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.follower-nested {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.user-not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.user-not-found-title {
+  font-family: monospace;
+  font-size: 24px;
+}
+.user-not-found-navlink {
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: palevioletred;
+  font-size: 30px;
+}
